@@ -1,0 +1,149 @@
+<!DOCTYPE html> {% load static %} {% bootstrap_css %}
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/showall.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="/polls/home.html">観光アプリ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="navbar-toggler-icon" ></span></a>
+                    <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/polls/home.html">ホーム</a>
+                        <a class="dropdown-item" href="/album/upload">投稿する</a>
+                        <a class="dropdown-item" href="#">投稿履歴</a>
+                        <a class="dropdown-item" href="/polls/login/">ログアウト</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="contents">
+        <div class="container">
+            <ul class="gnav">
+                <li>
+                    <a href="">エリア一覧</a>
+                    <ul>
+                        <li>
+                            <a href="">近畿</a>
+                            <ul>
+                                <li>
+                                    <a href="">	京都府</a>
+                                    <ul>
+                                        <li><a href="">京都市</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="touristname">
+            <div class="image">
+                <img src="/media/officialimages/aaa.png" width="10" height="30" class="example1">
+            </div>
+            <div class="spotname">
+                <a href="/album/showall">
+                    <h3 class="basicTitle">清水寺</h3>
+                </a>
+            </div>
+            <div class="sightseeingimage">
+                <a href="/album/showall"><img src="/media/officialimages/01_kiyomizu1.jpg" width="850" height="430"></a>
+            </div>
+        </div>
+        <div class="information" id="galleryArea">
+            <h4 class="basicTitle">清水寺について</h4>
+        </div>
+        <div class="image1">
+            <img src="/media/officialimages/aaa.png" width="10" height="30" class="example2">
+        </div>
+        <div class="aboutArea">
+            <p>
+                北法相宗の本山。西国観音霊場三十三カ所第16番札所。
+                <br> 778年（宝亀9）延鎮上人が開山、798年（延暦17）坂上田村麻呂の創建と伝える。音羽山中腹に30近い堂塔伽藍が並ぶ。現在の主な堂塔は、1633年（寛永10）徳川家光の再建。清水の舞台で知られる本堂（国宝）は寄せ棟造り、檜皮葺、寝殿造り風の優美な建築で、十一面千手観音立像を安置。舞台の下方に音羽の滝、谷を隔てて安産祈願の子安の塔（重文）がある。ほかに仁王門、馬駐（うまとどめ）、鐘楼、西門（さいもん）、三重塔、経堂、田村堂、轟門、朝倉堂、釈迦堂、阿弥陀堂、奥の院など重文指定の建造物がいらかを連ねる。1994年（平成6）12月「古都京都の文化財」として「世界遺産条約」に基づく世界文化遺産に登録された。
+            </p>
+        </div>
+        <div class="image2">
+            <img src="/media/officialimages/aaa.png" width="10" height="30" class="example3">
+        </div>
+        <div class="spotname">
+            <a href="/album/showall">
+                <h4 class="basicTitle1">清水寺の基本情報</h4>
+            </a>
+        </div>
+        <table class="basicInfoTitle">
+            <tbody>
+                <tr>
+                    <th>名称</th>
+                    <td>きよみずてら (キヨミズテラ)</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>
+                        〒605-0862  京都府京都市東山区清水一丁目294
+                        <br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.473099422612!2d135.7828576157235!3d34.99486047491322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108d385dcfb07%3A0x62af658650c434ba!2z5riF5rC05a-6!5e0!3m2!1sja!2sjp!4v1611854791268!5m2!1sja!2sjp" width="670" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <th>交通アクセス</th>
+                    <td>
+                        (1)JR「京都駅」下車 京都市交通局（市バス）「五条坂」「東山五条」徒歩10分
+                        <br> (2)京阪電鉄「祇園四条」駅 下車 京都市交通局（市バス）「清水道」「五条坂」徒歩10分　/　京阪電鉄「七条」駅 下車 京都市交通局（市バス）
+                        <br> 「清水寺祇園」「五条坂」徒歩10分　/　京阪電鉄「清水五条」駅 下車 徒歩約25分
+                        <br> (3)JR京都駅から自転車で12分（PiPPAシェアサイクル）
+                    </td>
+                </tr>
+                <tr>
+                    <th>営業時間</th>
+                    <td>
+                        公開:6:00~18:00
+                        <br> 公開：夏 6:00～18:30 （７月・８月）
+                    </td>
+                </tr>
+                <tr>
+                    <th>料金</th>
+                    <td>
+                        大人：大人:400円
+                        <br> 子供：子供:200円 小中学生
+                    </td>
+                </tr>
+                <tr>
+                    <th>その他</th>
+                    <td>文化財：世界遺産</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="information" id="galleryArea">
+            <h4 class="wordofmouth">清水寺の口コミ</h4>
+        </div>
+        <div class="center">
+            <img src="/media/officialimages/cse.png" width="30" height="30" class="example4">
+        </div>
+        {% for image in images %}
+        <div class="postingposition">
+            <div class="postscreen">
+                <h5>{{ image.title }}</h5>
+                <img src='{{ MEDIA_URL }}{{image.picture}}' width="74" height="56">
+                <p>{{ image.text }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</html>

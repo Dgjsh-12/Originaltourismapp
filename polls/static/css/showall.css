@@ -1,0 +1,280 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/*以下がドロップダウンメニュー*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 200px;
+    padding-top: 4rem;
+}
+
+.title {
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.read {
+    color: #fff;
+    line-height: 1.6;
+    margin: 0 auto 2rem;
+    width: 800px;
+}
+
+.gnav {
+    height: 2rem;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.gnav>li {
+    /*親階層のみ幅を25%にする*/
+    width: 25%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown {
+    margin-right: 50px;
+}
+
+.navbar-brand {
+    margin-left: 700px;
+}
+
+.bg-light {
+    background-color: #555555!important;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.contents {
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #000000;
+    width: 100px;
+    height: 1000px;
+}
+
+.gnav li {
+    list-style: none;
+    position: relative;
+}
+
+.gnav li a {
+    background: #cbcdce;
+    border-right: 1px solid #cbcdce;
+    color: #000000;
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+/*子階層以降共通*/
+
+.gnav li li {
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.gnav li li a {
+    border-top: 1px solid #cbcdce;
+}
+
+.gnav li:hover>ul>li {
+    height: 2rem;
+    overflow: visible;
+}
+
+.gnav li ul li ul {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*一番右のメニュー*/
+
+.gnav>li:nth-child(5) ul li ul {
+    left: -100%;
+}
+
+/*aの背景色を指定*/
+
+.gnav li:hover a {
+    /*親階層*/
+    background: #cbcdce;
+}
+
+.gnav li li a {
+    /*子階層*/
+    background: #cbcdce;
+}
+
+.gnav li li:hover a {
+    background: #cbcdce;
+}
+
+.gnav li ul li ul li a {
+    /*孫階層*/
+    background: #cbcdce;
+}
+
+.gnav li ul li ul li:hover a {
+    background: #cbcdce;
+}
+
+.gnav li ul li ul li ul li a {
+    /*ひ孫階層*/
+    background: #cbcdce;
+}
+
+.gnav li ul li ul li ul li:hover a {
+    background: #cbcdce;
+}
+
+/*リストに「▶︎」を付ける*/
+
+.gnav>li>ul:before {
+    /*子階層*/
+    border: 5px solid transparent;
+    border-top: 5px solid #060606;
+    content: "";
+    right: 1rem;
+    position: absolute;
+    top: 1rem;
+    transform: translateY(-40%);
+}
+
+.gnav li ul li ul:before {
+    /*孫階層*/
+    border: 5px solid transparent;
+    border-left: 5px solid #060606;
+    content: "";
+    left: -20px;
+    position: absolute;
+    top: 1em;
+    transform: translateY(-50%);
+}
+
+.basicTitle {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+img.example1 {
+    margin-top: 2px;
+    float: left;
+    margin-left: 210px;
+}
+
+a {
+    color: rgb(15 14 14);
+}
+
+.userscreen {
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 100px;
+    height: 100px;
+}
+
+.spotname {
+    width: 200px;
+    margin-left: 220px;
+}
+
+.sightseeingimage {
+    margin-top: 25px;
+    margin-left: 210px;
+}
+
+img.example2 {
+    margin-top: -38px;
+    float: left;
+    margin-left: 210px;
+}
+
+.information {
+    width: 200px;
+    margin-left: 220px;
+}
+
+.aboutArea{
+    margin-top: 30px;
+    width: 850px;
+    margin-left: 210px;
+}
+
+.basicInfoTitle {
+    margin-top: 30px;
+    margin-left: 210px;
+    width: 850%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.basicInfoTitle th, .basicInfoTitle td {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    line-height: 18px;
+    padding: 8px;
+    word-break: break-all;
+    font-size: 62.5%;
+}
+
+.basicInfoTitle th {
+    background: #eee;
+    font-weight: bold;
+    width: 158px;
+    vertical-align: top;
+}
+
+p {
+    font-size: 82.5%;
+}
+
+.postingposition {
+    width: 800px;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+img.example3 {
+    margin-top: 48px;
+    float: left;
+    margin-left: 210px;
+}
+
+.wordofmouth {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+img.example4 {
+    margin-top: -36px;
+    float: left;
+    margin-left: 210px;
+}
+
+.basicTitle1 {
+    margin-top: 64px;
+    margin-left: 20px;
+    width: 230px;
+}
+
