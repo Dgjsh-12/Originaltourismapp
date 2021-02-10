@@ -1,11 +1,13 @@
 <!DOCTYPE html> {% load static %} {% bootstrap_css %}
-<html lang="ja">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/upload.css' %}">
+    <link rel="stylesheet" href="{% static 'css/editbelete.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 
@@ -29,12 +31,17 @@
             </ul>
         </div>
     </nav>
-    <div class="postrange">
-        <form enctype="multipart/form-data" action="{% url 'album:upload' %}" method="post">
-            {% csrf_token %} {{form.as_p}}
-            <input type="submit" value="投稿">
-        </form>
+    {% for image in images %}
+    <div class="postingposition">
+        <div class="postscreen">
+            <h5>{{ image.title }}</h5>
+            <img src='https://tourism-site-app.s3-ap-northeast-1.amazonaws.com/{{image.picture}}' width="74" height="56">
+            <p>{{ image.text }}</p>
+            <a href="{% url polls:edit id=article.id %}">編集</a>
+            <a href="/polls/edit/">削除</a>
+        </div>
     </div>
+    {% endfor %}
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

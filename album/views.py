@@ -20,3 +20,8 @@ def showall(request):
     images = Image.objects.all()
     context = {'images':images}
     return render(request, 'album/showall.html', context)
+    
+def betails(request):
+    images = Image.objects.all()
+    context = {'images':images}
+    return render(request, 'album/betails.html', context)

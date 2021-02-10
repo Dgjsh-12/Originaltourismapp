@@ -22,7 +22,7 @@
                     <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="/polls/home.html">ホーム</a>
                         <a class="dropdown-item" href="/album/upload">投稿する</a>
-                        <a class="dropdown-item" href="#">投稿履歴</a>
+                        <a class="dropdown-item" href="/album/betails">投稿履歴</a>
                         <a class="dropdown-item" href="/polls/login/">ログアウト</a>
                     </div>
                 </li>
@@ -92,8 +92,9 @@
                 <tr>
                     <th>所在地</th>
                     <td>
-                        〒605-0862  京都府京都市東山区清水一丁目294
-                        <br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.473099422612!2d135.7828576157235!3d34.99486047491322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108d385dcfb07%3A0x62af658650c434ba!2z5riF5rC05a-6!5e0!3m2!1sja!2sjp!4v1611854791268!5m2!1sja!2sjp" width="670" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        〒605-0862 京都府京都市東山区清水一丁目294
+                        <br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.473099422612!2d135.7828576157235!3d34.99486047491322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108d385dcfb07%3A0x62af658650c434ba!2z5riF5rC05a-6!5e0!3m2!1sja!2sjp!4v1611854791268!5m2!1sja!2sjp"
+                            width="670" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </td>
                 </tr>
                 <tr>
@@ -135,7 +136,7 @@
         <div class="postingposition">
             <div class="postscreen">
                 <h5>{{ image.title }}</h5>
-                <img src='{{ MEDIA_URL }}{{image.picture}}' width="74" height="56">
+                <img src='https://tourism-site-app.s3-ap-northeast-1.amazonaws.com/{{image.picture}}' width="74" height="56">
                 <p>{{ image.text }}</p>
             </div>
         </div>

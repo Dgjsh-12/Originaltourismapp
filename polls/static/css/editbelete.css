@@ -1,0 +1,29 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.gnav {
+    height: 2rem;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown {
+    margin-right: 50px;
+}
+
+.navbar-brand {
+    margin-left: 700px;
+}
+
+.bg-light {
+    background-color: #555555!important;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
