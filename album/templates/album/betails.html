@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="/polls/home.html">観光アプリ</a>
+        <a class="navbar-brand" href="/polls/index.html">観光アプリ</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +22,7 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="navbar-toggler-icon" ></span></a>
                     <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/polls/home.html">ホーム</a>
+                        <a class="dropdown-item" href="/polls/index.html">ホーム</a>
                         <a class="dropdown-item" href="/album/upload">投稿する</a>
                         <a class="dropdown-item" href="/album/betails">投稿履歴</a>
                         <a class="dropdown-item" href="/polls/login/">ログアウト</a>
@@ -37,7 +37,7 @@
             <h5>{{ image.title }}</h5>
             <img src='https://tourism-site-app.s3-ap-northeast-1.amazonaws.com/{{image.picture}}' width="74" height="56">
             <p>{{ image.text }}</p>
-            <a href="{% url polls:edit id=article.id %}">編集</a>
+            <a href=" url edit/{{ betails.id }}">編集</a>
             <a href="/polls/edit/">削除</a>
         </div>
     </div>

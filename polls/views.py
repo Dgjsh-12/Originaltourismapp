@@ -5,9 +5,6 @@ from .models import Choice, Question
 from .forms import *
 from django.views.generic import DeleteView
 
-def home(request):
-    return render(request, 'polls/home.html')
-
 def index(request):
     latest_question_list = Question.objects.all().order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
@@ -33,7 +30,6 @@ def results(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     return render(request, 'polls/results.html', {'question': question})
 
-
 def signup(request):
     if request.method == 'POST':
         form = SignUpForm(request.POST)
@@ -46,9 +42,6 @@ def signup(request):
     context = {'form':form}
     return render(request, 'polls/signup.html', context)
 
-def BlogUpdateView(request, id):
-    article = get_object_or_404(Question, pk=id)
-    context = {
-        'article': article,
-    }
-    return render(request, 'edit.html', context)
+def edit(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'polls/edit.html', {'question': question})
