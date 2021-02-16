@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/upload.css' %}">
+    <link rel="stylesheet" href="{% static 'css/edit.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -30,8 +30,8 @@
         </div>
     </nav>
     <div class="postrange">
-        <form enctype="multipart/form-data" action="{% url 'album:upload' %}" method="post">
-            {% csrf_token %} {{form.as_p}}
+        <form enctype="multipart/form-data" action="{% url 'album:edit' image.id %}" method="post">
+            {% csrf_token %} {{imageform.as_p}}
             <input type="submit" value="投稿">
         </form>
     </div>

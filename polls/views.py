@@ -1,15 +1,15 @@
 from django.http import HttpResponse, Http404
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
-from .models import Choice, Question
+from .models import Choice
 from .forms import *
-from django.views.generic import DeleteView
+
 
 def index(request):
     latest_question_list = Question.objects.all().order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
     return render(request, 'polls/index.html', context)
-    
+
 @login_required
 def detail(request, question_id):
     user = request.user
@@ -42,6 +42,3 @@ def signup(request):
     context = {'form':form}
     return render(request, 'polls/signup.html', context)
 
-def edit(request, question_id):
-    question = get_object_or_404(Question, pk=question_id)
-    return render(request, 'polls/edit.html', {'question': question})

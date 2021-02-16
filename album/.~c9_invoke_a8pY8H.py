@@ -11,8 +11,8 @@ def upload(request):
             return redirect('album:showall')
     else:
         form = ImageForm()
-        
-        context = {'form':form}
+
+    context = {'form':form}
     return render(request, 'album/upload.html', context)
 
 
@@ -27,12 +27,8 @@ def betails(request):
     return render(request, 'album/betails.html', context)
 
 def edit(request, id):
-    if request.method == "POST":
-        image = get_object_or_404(Image, pk=id)
-        form = ImageForm(request.POST, request.FILES)
-        if form.is_valid():
-            form.save()
-            return redirect('album:showall')
+    image = get_object_or_404(Image, pk=id)
+    imageForm = ImageForm(instance=image)
     context = {
         'image':image,
         'imageform': imageForm

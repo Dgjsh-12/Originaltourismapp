@@ -31,14 +31,14 @@
             </ul>
         </div>
     </nav>
-    {% for image in images %}
+    {% for images in images %}
     <div class="postingposition">
         <div class="postscreen">
-            <h5>{{ image.title }}</h5>
-            <img src='https://tourism-site-app.s3-ap-northeast-1.amazonaws.com/{{image.picture}}' width="74" height="56">
-            <p>{{ image.text }}</p>
-            <a href=" url edit/{{ betails.id }}">編集</a>
-            <a href="/polls/edit/">削除</a>
+            <h5>{{ images.title }}</h5>
+            <img src='https://tourism-site-app.s3-ap-northeast-1.amazonaws.com/{{images.picture}}' width="74" height="56">
+            <p>{{ images.text }}</p>
+            <a href='{% url "album:edit" images.id %}'>編集</a>
+            <a href='{% url "album:delete" images.id %}'>削除</a>
         </div>
     </div>
     {% endfor %}
