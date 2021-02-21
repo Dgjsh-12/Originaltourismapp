@@ -215,7 +215,7 @@ img.example2 {
     margin-left: 220px;
 }
 
-.aboutArea{
+.aboutArea {
     margin-top: 30px;
     width: 850px;
     margin-left: 210px;
@@ -229,7 +229,8 @@ img.example2 {
     border-left: 1px solid #ccc;
 }
 
-.basicInfoTitle th, .basicInfoTitle td {
+.basicInfoTitle th,
+.basicInfoTitle td {
     border-bottom: 1px solid #ccc;
     border-right: 1px solid #ccc;
     line-height: 18px;
@@ -251,7 +252,6 @@ p {
 
 .postingposition {
     width: 800px;
-    margin-left: 210px;
     margin-top: 50px;
 }
 
@@ -278,3 +278,28 @@ img.example4 {
     width: 230px;
 }
 
+.basicInfoTitle1 {
+    margin-left: 210px;
+    width: 850px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.basicInfoTitle1 th {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    line-height: 18px;
+    padding: 8px;
+    word-break: break-all;
+    font-size: 62.5%;
+}
+
+.basicInfoTitle1 th {
+    background: #eee;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.postscreen {
+    height: 190px;
+}

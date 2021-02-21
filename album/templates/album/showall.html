@@ -135,9 +135,25 @@
         {% for image in images %}
         <div class="postingposition">
             <div class="postscreen">
-                <h5>{{ image.title }}</h5>
-                <img src='https://tourism-site-app.s3-ap-northeast-1.amazonaws.com/{{image.picture}}' width="74" height="56">
-                <p>{{ image.text }}</p>
+                <table class="basicInfoTitle1">
+                    <tbody>
+                        <tr>
+                            <th>
+                                <h5>{{ image.title }}</h5>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img src='https://tourism-site-app.s3-ap-northeast-1.amazonaws.com/{{image.picture}}' width="138" height="90">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p>{{ image.text }}</p>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         {% endfor %}
