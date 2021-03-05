@@ -9,20 +9,21 @@
 5. 編集機能
 6. 削除機能
 
+# 
 1. ログイン機能
 * ログイン機能には、ユーザー名、パスワードでログイン出来ます。
-* URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/」 
+* URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」
 * テンプレートの場所は「polls/templates/polls/signup」です。
 
 アカウント登録機能には、ユーザー名、パスワード、再度パスワードがあります。URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/」 で、htmlは「polls/templates/polls/signup」です。
 
-ログアウト機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/」 で、HTMLは 「polls/templates/polls/login」 です。
+ログアウト機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」 で、HTMLは 「polls/templates/polls/login」 です。
 
-投稿機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/」 で、HTMLは 「album/templates/album/upload」 です。
+投稿機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/ 」 で、HTMLは 「album/templates/album/upload」 です。
 
-編集機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/」 で、HTMLは 「album/templates/album/betails」 です。
+編集機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/ 」 で、HTMLは 「album/templates/album/betails」 です。
 
-削除機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete」 で、HTMLは 「album/templates/album/delete」 です。
+削除機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete 」 で、HTMLは 「album/templates/album/delete」 です。
 
 # アプリ画面について
 アプリ名にはリンクがありましてホーム画面に戻るようにしています。ハンバーガーメニューにはホーム、投稿する、投稿履歴、ログアウトが表示されます。
