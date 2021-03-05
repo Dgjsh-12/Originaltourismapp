@@ -10,11 +10,14 @@
 6. 削除機能
 # 機能性の説明
 1. ログイン機能
-* ログイン機能には、ユーザー名、パスワードでログイン出来ます。
+* ログインには、ユーザー名、パスワードでログイン出来ます。
 * URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」
 * テンプレートの場所は「polls/templates/polls/signup」です。
 
-アカウント登録機能には、ユーザー名、パスワード、再度パスワードがあります。URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/ 」 で、htmlは「polls/templates/polls/signup」です。
+2. アカウント登録機能
+* アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
+* URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/ 」 
+* テンプレートの場所は「polls/templates/polls/signup」です。
 
 ログアウト機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」 で、HTMLは 「polls/templates/polls/login」 です。
 
