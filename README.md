@@ -5,10 +5,10 @@
 こちらのアプリは、ログイン機能、アカウント登録機能、ログアウト機能、投稿機能、編集機能、削除機能、があります。
 
 ## URLの場所とテンプレートの場所
-① ログイン機能
-・ログイン機能には、ユーザー名、パスワードでログイン出来ます。
-・URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/」 
-・テンプレートの場所は「polls/templates/polls/signup」です。
+1. ログイン機能
+* ログイン機能には、ユーザー名、パスワードでログイン出来ます。
+* URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/」 
+* テンプレートの場所は「polls/templates/polls/signup」です。
 
 アカウント登録機能には、ユーザー名、パスワード、再度パスワードがあります。URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/」 で、htmlは「polls/templates/polls/signup」です。
 
