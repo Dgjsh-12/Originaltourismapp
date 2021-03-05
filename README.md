@@ -6,42 +6,84 @@
 2. アカウント登録機能
 3. ログアウト機能
 4. 投稿機能
-5. 編集機能
-6. 削除機能
+5. 履歴機能
+6. 編集機能
+7. 削除機能
 # 機能性の説明
 1. ログイン機能
 * ログインには、ユーザー名、パスワードでログイン出来ます。
-* URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」
-* テンプレートの場所は「polls/templates/polls/signup」です。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」
+* テンプレートの場所は「polls/templates/polls/signup」
 
 2. アカウント登録機能
 * アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
-* URLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/ 」 
-* テンプレートの場所は「polls/templates/polls/signup」です。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/ 」
+* テンプレートの場所は「polls/templates/polls/signup」
 
-ログアウト機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」 で、HTMLは 「polls/templates/polls/login」 です。
+3. ログアウト機能
+* ログアウトをすると、ログイン画面に飛ばされます。
+* テンプレートは「polls/templates/polls/login」
 
-投稿機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/ 」 で、HTMLは 「album/templates/album/upload」 です。
+4. 投稿機能
+* 投稿機能には
+  * タイトル名
+  * テキスト
+  * 画像選択
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/ 」
+* テンプレートは「album/templates/album/upload」
 
-編集機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/ 」 で、HTMLは 「album/templates/album/betails」 です。
+5. 履歴機能
+* 履歴機能には、投稿したのが履歴として表示されます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/ 」
+* テンプレートは「album/templates/album/betails」
 
-削除機能のURLは「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete 」 で、HTMLは 「album/templates/album/delete」 です。
+6. 編集機能
+* 投稿した、タイトル名、テキスト、画像選択を編集する事が出来ます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/83/edit 」
+* テンプレートは「album/templates/album/betails」
+
+7. 削除機能
+* 投稿したのを削除出来ます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete 」
+* テンプレートは「album/templates/album/delete」
 
 # アプリ画面について
-アプリ名にはリンクがありましてホーム画面に戻るようにしています。ハンバーガーメニューにはホーム、投稿する、投稿履歴、ログアウトが表示されます。
+1. ログイン画面
+* ログイン画面には、ユーザーとパスワードを入力します。入力したら、ログインボタンを押して、ホーム画面に行くようになっています。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/ 」
 
-「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/ 」 の画面は、アカウント登録で、ユーザー名、パスワード、再度パスワードを入力する枠が表示されます。
+2. アカウント画面
+* アカウント登録画面には、ユーザー名、パスワード、再度パスワードを入力する枠が表示されます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/ 」
+ 
+3. ホーム画面
+* ホーム画面には観光名と画像が表示されます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/index.html 」
 
-「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」 の画面は、ログイン画面で、アカウント登録画面で登録したユーザーとパスワードを入力します。入力したら、ログインボタンを押したら、ホーム画面に行くようになっています。
+4. 観光スポット情報画面
+* 観光スポット情報画面には、観光スポットの情報と口コミが表示されます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/showall/ 」
 
-「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/index.html 」 の画面は、ホーム画面となっていまして、ホーム画面には観光名と画像のみが表示されていまして、観光名と画像はリンクになっておりまして、そのリンクをクリックすると、その観光の情報と口コミが表示されます。
+5. 投稿画面
+* 投稿画面には、タイトル、内容、画像選択が表示されます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/ 」
 
-「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/showall/ 」 の画面は、観光スポットの情報と口コミが表示されます。
+6. 履歴画面
+* 履歴画面には、投稿したのが履歴として表示されます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/ 」
 
-「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/ 」 の画面は、投稿画面です。タイトル、内容、画像選択をして投稿します。
+7. 編集画面
+* 編集画面には、タイトル、内容、画像を編集出来て投稿する事ができます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/83/edit 」
 
-「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/ 」 の画面は、履歴画面です。自分が投稿したのが履歴として表示されます。履歴画面で編集、削除が出来ます。
+8. 削除画面
+* 削除画面には、投稿したのを削除できます。
+* URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/80/delete 」
 
-「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/80/delete 」 の画面は、削除画面です。ここで削除します。
-
-「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/80/delete 」 の画面は、編集画面です。ここで、タイトル、内容、画像を編集出来ます。編集したのを投稿出来ます。
+9. アプリ画面には、アプリ名とハンバーガーメニューがフッターに表示されます。(ログイン画面とログアウト画面には表示されません。)
+* アプリ名には、リンクがありホーム画面に飛ばされます。
+* ハンバーガーメニューには
+  * ホーム
+  * 投稿する
+  * 投稿履歴
+  * ログアウト
