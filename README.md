@@ -13,7 +13,7 @@
 1. ログイン機能
 * ログインには、ユーザー名、パスワードでログイン出来ます。
 * URL「https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/ 」
-* テンプレートの場所は「polls/templates/polls/signup」
+* テンプレートは「polls/templates/polls/signup」
 
 2. アカウント登録機能
 * アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
