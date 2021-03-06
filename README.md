@@ -1,4 +1,6 @@
-<img width="100" src="https://user-images.githubusercontent.com/67186355/110197054-3387ef80-7e8c-11eb-96f6-6b2b2bc2512f.jpg">
+<div align="center">
+<img width="300" src="https://user-images.githubusercontent.com/67186355/110197054-3387ef80-7e8c-11eb-96f6-6b2b2bc2512f.jpg">
+</div>
 
 # アプリの説明
 こちらのWebアプリは観光スポットと、なっております。行きたい観光スポットをエリア一覧で選択、出来ますし観光スポットの情報や他のユーザーが観光に行った時の感想なのが投稿されていて見られる事が出来ます。自分でも観光に行った時の感想を投稿する事も出来ます。もちろん、投稿したのを編集、削除と言った事も出来ます。
