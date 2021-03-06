@@ -43,7 +43,7 @@
   * [削除画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete)
   * テンプレートは「album/templates/album/delete」
 
-# アプリ画面について
+# アプリの画面について
 * ログイン画面
   * ログイン画面には、ユーザーとパスワードを入力します。入力したら、ログインボタンを押して、ホーム画面に行くようになっています。
   * [ログイン画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/)
