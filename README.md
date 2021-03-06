@@ -9,11 +9,12 @@
 5. 履歴機能
 6. 編集機能
 7. 削除機能
-# 機能性の説明
+# 機能性について
 1. ログイン機能
-* ログインには、ユーザー名、パスワードでログイン出来ます。
-* [ログイン画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/)
-* テンプレートは「polls/templates/polls/signup」
+- 最初の入れ子になったリストアイテム
+  - ログインには、ユーザー名、パスワードでログイン出来ます。
+  -[ログイン画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/)
+  -テンプレートは「polls/templates/polls/signup」
 
 2. アカウント登録機能
 * アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
