@@ -15,7 +15,7 @@
   * [ログイン画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/)
   * テンプレートは「polls/templates/polls/signup」
 
-*アカウント登録機能
+* アカウント登録機能
   * アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
   * [アカウント画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
   * テンプレートは「polls/templates/polls/signup」
