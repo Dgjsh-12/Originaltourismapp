@@ -62,6 +62,10 @@
   * 投稿したのを削除出来ます。
   * [削除画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete)
   * HTMlは「album/templates/album/delete」
+  * 実際の削除画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110511496-a07ade00-8147-11eb-96b9-57ef2b87757e.png">
+</div>
 
 # アプリの画面について
 * ログイン画面
