@@ -75,6 +75,10 @@
 * アカウント画面
   * アカウント登録画面には、ユーザー名、パスワード、再度パスワードを入力する枠が表示されます。
   * [アカウント画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
+  * 実際のアカウント画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110509549-8f30d200-8145-11eb-9f36-19a8bb3be07d.png">
+</div>
  
 * ホーム画面
   * ホーム画面には観光名と画像が表示されます。
