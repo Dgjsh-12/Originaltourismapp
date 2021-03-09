@@ -137,5 +137,5 @@
     * ログアウト
   * 実際のハンバーガーメニューには画面です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png">
+<img src="https://user-images.githubusercontent.com/67186355/110513640-cbfec800-8149-11eb-955b-29d340c6adcd.png">
 </div>
