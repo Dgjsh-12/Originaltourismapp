@@ -53,6 +53,10 @@
   * 投稿した、タイトル名、テキスト、画像選択を編集する事が出来ます。
   * [編集画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/83/edit)
   * HTMlは「album/templates/album/betails」
+  * 実際の編集画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110511201-5691f800-8147-11eb-9f21-67ffc9931ddc.png">
+</div>
 
 * 削除機能
   * 投稿したのを削除出来ます。
