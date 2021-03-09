@@ -93,7 +93,7 @@
   * [観光スポット](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/showall/)
   * 実際の観光スポット情報画面です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png">
+<img src="https://user-images.githubusercontent.com/67186355/110513425-8e01a400-8149-11eb-96da-d502859d75c6.png">
 </div>
 
 * 投稿画面
