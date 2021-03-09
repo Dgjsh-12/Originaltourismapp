@@ -19,7 +19,7 @@
   * アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
   * [アカウント画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
   * HTMlは「polls/templates/polls/signup」
-  * 実際のログイン画面です。☟
+  * 実際のアカウント画面です。☟
 <div align="center">
 <img src="https://user-images.githubusercontent.com/67186355/110509549-8f30d200-8145-11eb-9f36-19a8bb3be07d.png">
 </div>
@@ -35,7 +35,7 @@
     * 画像選択
   * [投稿画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/)
   * HTMlは「album/templates/album/upload」
-  * 実際のログイン画面です。☟
+  * 実際の投稿画面です。☟
 <div align="center">
 <img src="https://user-images.githubusercontent.com/67186355/110510495-94dae780-8146-11eb-80c2-3a819d4b23a7.png">
 </div>
@@ -44,6 +44,10 @@
   * 履歴機能には、投稿したのが履歴として表示されます。
   * [履歴画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/)
   * HTMlは「album/templates/album/betails」
+  * 実際の履歴画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110510495-94dae780-8146-11eb-80c2-3a819d4b23a7.png">
+</div>
 
 * 編集機能
   * 投稿した、タイトル名、テキスト、画像選択を編集する事が出来ます。
