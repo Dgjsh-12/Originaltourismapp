@@ -35,6 +35,10 @@
     * 画像選択
   * [投稿画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/)
   * HTMlは「album/templates/album/upload」
+  * 実際のログイン画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110510495-94dae780-8146-11eb-80c2-3a819d4b23a7.png">
+</div>
 
 * 履歴機能
   * 履歴機能には、投稿したのが履歴として表示されます。
