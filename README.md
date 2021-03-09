@@ -9,16 +9,16 @@
 * ログイン機能
   * ログインには、ユーザー名、パスワードでログイン出来ます。
   * [ログイン画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/)
-  * テンプレートは「polls/templates/polls/signup」
+  * HTMlは「polls/templates/polls/signup」
 
 * アカウント登録機能
   * アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
   * [アカウント画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
-  * テンプレートは「polls/templates/polls/signup」
+  * HTMlは「polls/templates/polls/signup」
 
 * ログアウト機能
   * ログアウトをすると、ログイン画面に飛ばされます。
-  * テンプレートは「polls/templates/polls/login」
+  * HTMlは「polls/templates/polls/login」
 
 * 投稿機能
   * 投稿機能には
@@ -26,22 +26,22 @@
     * テキスト
     * 画像選択
   * [投稿画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/)
-  * テンプレートは「album/templates/album/upload」
+  * HTMlは「album/templates/album/upload」
 
 * 履歴機能
   * 履歴機能には、投稿したのが履歴として表示されます。
   * [履歴画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/)
-  * テンプレートは「album/templates/album/betails」
+  * HTMlは「album/templates/album/betails」
 
 * 編集機能
   * 投稿した、タイトル名、テキスト、画像選択を編集する事が出来ます。
   * [編集画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/83/edit)
-  * テンプレートは「album/templates/album/betails」
+  * HTMlは「album/templates/album/betails」
 
 * 削除機能
   * 投稿したのを削除出来ます。
   * [削除画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete)
-  * テンプレートは「album/templates/album/delete」
+  * HTMlは「album/templates/album/delete」
 
 # アプリの画面について
 * ログイン画面
