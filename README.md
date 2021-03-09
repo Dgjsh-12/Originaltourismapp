@@ -12,7 +12,7 @@
   * HTMlは「polls/templates/polls/signup」
   * 実際のログイン画面です。☟
 <div align="center">
-<img width="300" src="https://user-images.githubusercontent.com/67186355/110495787-33138100-8138-11eb-8db0-e8fd9dfd76fa.png">
+<img src="https://user-images.githubusercontent.com/67186355/110495787-33138100-8138-11eb-8db0-e8fd9dfd76fa.png">
 </div>
 
 * アカウント登録機能
