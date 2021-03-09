@@ -46,7 +46,7 @@
   * HTMlは「album/templates/album/betails」
   * 実際の履歴画面です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110510495-94dae780-8146-11eb-80c2-3a819d4b23a7.png">
+<img src="https://user-images.githubusercontent.com/67186355/110510982-16cb1080-8147-11eb-8794-47f607e6ddbe.png">
 </div>
 
 * 編集機能
