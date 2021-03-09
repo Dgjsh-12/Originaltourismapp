@@ -83,26 +83,50 @@
 * ホーム画面
   * ホーム画面には観光名と画像が表示されます。
   * [ホーム画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/index.html)
+  * 実際のホーム画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png">
+</div>
 
 * 観光スポット情報画面
   * 観光スポット情報画面には、観光スポットの情報と口コミが表示されます。
   * [観光スポット](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/showall/)
+  * 実際の観光スポット情報画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png">
+</div>
 
 * 投稿画面
   * 投稿画面には、タイトル、内容、画像選択が表示されます。
   * [投稿画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/upload/)
+  * 実際の投稿画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110510495-94dae780-8146-11eb-80c2-3a819d4b23a7.png">
+</div>
 
 * 履歴画面
   * 履歴画面には、投稿したのが履歴として表示されます。
   * [履歴画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/betails/)
+  * 実際の履歴画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110510982-16cb1080-8147-11eb-8794-47f607e6ddbe.png">
+</div>
 
 * 編集画面
   * 編集画面には、タイトル、内容、画像を編集出来て投稿する事ができます。
   * [編集画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/83/edit)
+  * 実際の編集画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110511201-5691f800-8147-11eb-9f21-67ffc9931ddc.png">
+</div>
 
 * 削除画面
   * 削除画面には、投稿したのを削除できます。
   * [削除画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete)
+  * 実際の削除画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110511496-a07ade00-8147-11eb-96b9-57ef2b87757e.png">
+</div>
 
 * アプリ画面には、アプリ名とハンバーガーメニューがフッターに表示されます。(ログイン画面とログアウト画面には表示させていません)
   * アプリ名には、リンクがありホーム画面に飛ばされます。
@@ -111,3 +135,7 @@
     * 投稿する
     * 投稿履歴
     * ログアウト
+  * 実際のハンバーガーメニューには画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png">
+</div>
