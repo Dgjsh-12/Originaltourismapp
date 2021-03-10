@@ -30,8 +30,7 @@
 
 ## 観光スポットの情報画面
 * https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/showall/
-![観光スポットの情報画面](https://user-images.githubusercontent.com/67186355/110682911-d4750280-821e-11eb-8421-7b7ca883992e.png)
-<img src="https://user-images.githubusercontent.com/67186355/110682921-d6d75c80-821e-11eb-88bf-b18543b50c1d.png">
+![観光スポットの情報画面](https://user-images.githubusercontent.com/67186355/110513425-8e01a400-8149-11eb-96da-d502859d75c6.png)
 * 情報には、観光スポットの歴史の内容と基本情報と口コミが表示されます。
 
 #
