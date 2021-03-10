@@ -12,7 +12,7 @@
   * HTMlは「polls/templates/polls/signup」
   * 実際のログイン画面です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110495787-33138100-8138-11eb-8db0-e8fd9dfd76fa.png">
+<img src="https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png">
 </div>
 
 * アカウント登録機能
@@ -71,6 +71,10 @@
 * ログイン画面
   * ログイン画面には、ユーザーとパスワードを入力します。入力したら、ログインボタンを押して、ホーム画面に行くようになっています。
   * [ログイン画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/)
+  * 実際のログイン画面です。☟
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png">
+</div>
 
 * アカウント画面
   * アカウント登録画面には、ユーザー名、パスワード、再度パスワードを入力する枠が表示されます。
