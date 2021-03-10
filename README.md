@@ -13,24 +13,17 @@
 
 #
 
-* アカウント登録機能
-  * アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
-  * [アカウント画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
-  * HTMlは「polls/templates/polls/signup」
-  * 実際のアカウント登録画面です。☟
-<div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110622625-0f574600-81df-11eb-8336-4937b104a10a.png">
-</div>
+## アカウント登録画面
+* (https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
+![アカウント画面]("https://user-images.githubusercontent.com/67186355/110622625-0f574600-81df-11eb-8336-4937b104a10a.png")
+* ユーザー名、パスワード、再度パスワードでアカウントを登録します。
 
 #
 
-* ログアウト機能
-  * ログアウトをすると、ログイン画面に飛ばされます。
-  * HTMlは「polls/templates/polls/login」
-  * 実際のログアウトした時の画面です。☟
-<div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png">
-</div>
+## ホーム画面
+* (https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/)
+![ホーム画面]("https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png")
+* 観光名もしくは画像をクリックすると観光スポットの情報が表示します。
 
 #
 
@@ -100,13 +93,7 @@
  
  #
  
-* ホーム画面
-  * ホーム画面には観光名と画像が表示されます。
-  * [ホーム画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/index.html)
-  * 実際のホーム画面です。☟
-<div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png">
-</div>
+
 
 #
 
