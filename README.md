@@ -2,10 +2,11 @@
 <img width="300" src="https://user-images.githubusercontent.com/67186355/110197054-3387ef80-7e8c-11eb-96f6-6b2b2bc2512f.jpg">
 </div>
 
-# アプリについて
+
 こちらのWebアプリは観光スポットとなっております。  
 行きたい観光スポットをエリア一覧で選択出来ますし観光スポットの情報や他のユーザーが観光に行った時の感想なのが投稿されており見られる事が出来ます。自分でも観光に行った時の感想を投稿する事も出来ます。投稿したのを編集、削除と言った事も出来ます。
 
+# 画像の説明
 ## ログイン画面
 * https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/
 ![ログイン画面](https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png)
