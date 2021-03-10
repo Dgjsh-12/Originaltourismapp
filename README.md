@@ -15,14 +15,14 @@
 
 ## アカウント登録画面
 * (https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
-![アカウント画面]("https://user-images.githubusercontent.com/67186355/110622625-0f574600-81df-11eb-8336-4937b104a10a.png")
+![アカウント画面](https://user-images.githubusercontent.com/67186355/110622625-0f574600-81df-11eb-8336-4937b104a10a.png)
 * ユーザー名、パスワード、再度パスワードでアカウントを登録します。
 
 #
 
 ## ホーム画面
 * (https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/)
-![ホーム画面]("https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png")
+![ホーム画面](https://user-images.githubusercontent.com/67186355/110510095-344baa80-8146-11eb-8951-34b36bf0a044.png)
 * 観光名もしくは画像をクリックすると観光スポットの情報が表示します。
 
 #
