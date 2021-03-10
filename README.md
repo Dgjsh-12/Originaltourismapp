@@ -14,7 +14,9 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png">
 </div>
-#  
+
+#
+
 * アカウント登録機能
   * アカウント登録には、ユーザー名、パスワード、再度パスワードがあります。
   * [アカウント画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
