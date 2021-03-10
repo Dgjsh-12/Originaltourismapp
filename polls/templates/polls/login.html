@@ -11,11 +11,13 @@
 
 <body>
     <div class="box">
-            <img src="/media/officialimages/asdw.png" width="930" height="840" class="example1">
+        <img src="/media/officialimages/asdw.png" width="930" height="840" class="example1">
         <form action="{% url 'polls:login' %}" method="post">
-            {% csrf_token %} {{ form.as_p }}
-            <p><input class="decorated" type="submit" value="ログイン"></p>
-            <a class="btn btn-primary" href="{% url 'polls:signup' %}" role="button">アカウント登録</a>
+            <div class="jumbotron">
+                {% csrf_token %} {{ form.as_p }}
+                <p><input class="decorated" type="submit" value="ログイン"></p>
+                <a class="btn btn-primary" href="{% url 'polls:signup' %}" role="button">アカウント登録</a>
+            </div>
         </form>
     </div>
 </body>

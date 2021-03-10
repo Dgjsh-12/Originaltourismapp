@@ -47,9 +47,9 @@ class VoteForm(forms.Form):
             selected_choice.save()
             
 class SignUpForm(forms.Form):
-    username = forms.CharField(label='', widget=forms.TextInput(attrs={'placeholder':'ユーザー名'}))
-    enter_password = forms.CharField(label='', widget=forms.PasswordInput(attrs={'placeholder':'パスワード'}))
-    retype_password = forms.CharField(label='', widget=forms.PasswordInput(attrs={'placeholder':'再度パスワード'}))
+    username = forms.CharField(widget=forms.TextInput)
+    enter_password = forms.CharField(widget=forms.PasswordInput)
+    retype_password = forms.CharField(widget=forms.PasswordInput)
 
     def clean_username(self):
         username = self.cleaned_data.get('username')
