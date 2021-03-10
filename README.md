@@ -21,7 +21,7 @@
   * HTMlは「polls/templates/polls/signup」
   * 実際のアカウント画面です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110509549-8f30d200-8145-11eb-9f36-19a8bb3be07d.png">
+<img src="https://user-images.githubusercontent.com/67186355/110622625-0f574600-81df-11eb-8336-4937b104a10a.png">
 </div>
 
 * ログアウト機能
@@ -76,12 +76,12 @@
 <img src="https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png">
 </div>
 
-* アカウント画面
+* アカウント登録画面
   * アカウント登録画面には、ユーザー名、パスワード、再度パスワードを入力する枠が表示されます。
   * [アカウント画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/)
-  * 実際のアカウント画面です。☟
+  * 実際のアカウント登録です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110509549-8f30d200-8145-11eb-9f36-19a8bb3be07d.png">
+<img src="https://user-images.githubusercontent.com/67186355/110622625-0f574600-81df-11eb-8336-4937b104a10a.png">
 </div>
  
 * ホーム画面
