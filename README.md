@@ -64,7 +64,7 @@
   * HTMlは「album/templates/album/delete」
   * 実際の削除画面です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110511496-a07ade00-8147-11eb-96b9-57ef2b87757e.png">
+<img src="https://user-images.githubusercontent.com/67186355/110578924-14999e00-81a9-11eb-9b99-9f7f058706b8.png">
 </div>
 
 # アプリの画面について
@@ -125,7 +125,7 @@
   * [削除画面](https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/82/delete)
   * 実際の削除画面です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110511496-a07ade00-8147-11eb-96b9-57ef2b87757e.png">
+<img src="https://user-images.githubusercontent.com/67186355/110578924-14999e00-81a9-11eb-9b99-9f7f058706b8.png">
 </div>
 
 * アプリ画面には、アプリ名とハンバーガーメニューがフッターに表示されます。(ログイン画面とログアウト画面には表示させていません)
