@@ -33,7 +33,7 @@
   * HTMlは「polls/templates/polls/login」
   * 実際のログアウトした時の画面です。☟
 <div align="center">
-<img src="https://user-images.githubusercontent.com/67186355/110622625-0f574600-81df-11eb-8336-4937b104a10a.png">
+<img src="https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png">
 </div>
 
 #
