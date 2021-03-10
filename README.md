@@ -139,3 +139,8 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/67186355/110513640-cbfec800-8149-11eb-955b-29d340c6adcd.png">
 </div>
+
+* エリア一覧には、日本地域 ⇨ 都道府県 ⇨ 区、市、町、村の順で選択したのが表示されます。
+<div align="center">
+<img src="https://user-images.githubusercontent.com/67186355/110579361-fda77b80-81a9-11eb-88e0-0d96a431b24c.png">
+</div>
