@@ -12,30 +12,56 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="/polls/index.html">観光アプリ</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="navbar-toggler-icon" ></span></a>
-                    <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/polls/index.html">ホーム</a>
-                        <a class="dropdown-item" href="/album/upload">投稿する</a>
-                        <a class="dropdown-item" href="/album/betails">投稿履歴</a>
-                        <a class="dropdown-item" href="/polls/login/">ログアウト</a>
-                    </div>
-                </li>
-            </ul>
+    <header>
+        <div class="navbar navbar-dark bg-primary shadow-sm">
+            <a href="/polls/index.html" class="navbar-brand">
+                    <strong>観光アプリ</strong>
+                </a>
+            <div class="menulist">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navbarSupportedContent">
+                    <a class="dropdown-item" href="/polls/index.html">ホーム</a>
+                    <a class="dropdown-item" href="/album/upload">投稿する</a>
+                    <a class="dropdown-item" href="/album/betails">投稿履歴</a>
+                    <a class="dropdown-item" href="/polls/login/">ログアウト</a>
+                </div>
+            </div>
         </div>
-    </nav>
+    </header>
     <div class="postrange">
-        <form enctype="multipart/form-data" action="{% url 'album:delete' image.id %}" method="post">
-            {% csrf_token %} {{ image.picture }} <br> {{ image.title }} <br> {{ image.text }} <br>
-            <input type="submit" value="削除する">
+        <form class="form-signin" enctype="multipart/form-data" action="{% url 'album:delete' image.id %}" method="post">
+            {% csrf_token %}
+            <div class="postingposition">
+                <div class="postscreen">
+                    <table class="basicInfoTitle1">
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <h5>{{ image.title }}</h5>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <img src='https://tourism-site-app.s3-ap-northeast-1.amazonaws.com/{{image.picture}}' width="300" height="200">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <p>{{ image.text }}</p>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="erase">
+                <p><input class="decorated" type="submit" value="削除する"></p>
+            </div>
         </form>
+        <div class="container-fluid">
+        </div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

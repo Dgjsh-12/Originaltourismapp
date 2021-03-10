@@ -12,11 +12,10 @@
 <body>
     <div class="box">
             <img src="/media/officialimages/asdw.png" width="930" height="840" class="example1">
-        <h3>ログイン</h3>
         <form action="{% url 'polls:login' %}" method="post">
             {% csrf_token %} {{ form.as_p }}
-            <input type="submit" value="ログイン">
-            <button><a href="{% url 'polls:signup' %}">アカウント登録</a></button>
+            <p><input class="decorated" type="submit" value="ログイン"></p>
+            <a class="btn btn-primary" href="{% url 'polls:signup' %}" role="button">アカウント登録</a>
         </form>
     </div>
 </body>

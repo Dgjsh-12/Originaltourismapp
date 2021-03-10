@@ -13,8 +13,8 @@ def upload(request):
         
         context = {'form':form}
     return render(request, 'album/upload.html', context)
-
-
+    
+    
 def showall(request):
     images = Image.objects.all()
     context = {'images':images}
@@ -22,7 +22,7 @@ def showall(request):
     
 def betails(request):
     images = Image.objects.all()
-    context = {'images':images}
+    context ={'images':images}
     return render(request, 'album/betails.html', context)
 
 def edit(request, id):
@@ -45,7 +45,7 @@ def delete(request, id):
     image = get_object_or_404(Image, pk=id)
     if request.method == "POST":
             image.delete()
-            return redirect('album:showall')
+            return redirect('album:betails')
     imageform = ImageForm(instance = image)
     context = {
         'image':image,

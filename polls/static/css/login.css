@@ -27,3 +27,20 @@ form {
 a {
     color: black;
 }
+
+input.decorated {
+    background-color: #33FF00;
+    width: 174px;
+    border-radius: 5px;
+    height: 37px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+a.btn.btn-primary {
+    width: 174px;
+    height: 37px;
+    background-color: #01c944;
+    border-color: #01c944;
+}

@@ -10,38 +10,37 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="/polls/index.html">観光アプリ</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="navbar-toggler-icon" ></span></a>
-                    <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/polls/index.html">ホーム</a>
-                        <a class="dropdown-item" href="/album/upload">投稿する</a>
-                        <a class="dropdown-item" href="/album/betails">投稿履歴</a>
-                        <a class="dropdown-item" href="/polls/login/">ログアウト</a>
-                    </div>
-                </li>
-            </ul>
+    <header>
+        <div class="navbar navbar-dark bg-primary shadow-sm">
+            <a href="/polls/index.html" class="navbar-brand">
+                    <strong>観光アプリ</strong>
+                </a>
+            <div class="menulist">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navbarSupportedContent">
+                    <a class="dropdown-item" href="/polls/index.html">ホーム</a>
+                    <a class="dropdown-item" href="/album/upload">投稿する</a>
+                    <a class="dropdown-item" href="/album/betails">投稿履歴</a>
+                    <a class="dropdown-item" href="/polls/login/">ログアウト</a>
+                </div>
+            </div>
         </div>
-    </nav>
+    </header>
     <div class="contents">
         <div class="container">
             <ul class="gnav">
                 <li>
-                    <a href="">エリア一覧</a>
+                    <a href="/polls/index.html">エリア一覧</a>
                     <ul>
                         <li>
-                            <a href="">近畿</a>
+                            <a href="/polls/index.html">近畿</a>
                             <ul>
                                 <li>
-                                    <a href="">	京都府</a>
+                                    <a href="/polls/kyoto.html">京都府</a>
                                     <ul>
-                                        <li><a href="">京都市</a></li>
+                                        <li><a href="/polls/kyotocty.html">京都市</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -60,7 +59,7 @@
                 </a>
             </div>
             <div class="sightseeingimage">
-                <a href="/album/showall"><img src="/media/officialimages/01_kiyomizu1.jpg" width="850" height="430"></a>
+                <a href="/album/showall"><img src="/media/officialimages/ksji.jpg" width="850" height="430"></a>
             </div>
         </div>
         <div class="information" id="galleryArea">
@@ -132,10 +131,11 @@
         <div class="center">
             <img src="/media/officialimages/cse.png" width="30" height="30" class="example4">
         </div>
-        {% for image in images %}
+        {% for image in images %} {% if user.is_authenticated %}
         <div class="postingposition">
             <div class="postscreen">
                 <table class="basicInfoTitle1">
+                    <div class="ded"><p>{{ user.get_username }}</p></div>
                     <tbody>
                         <tr>
                             <th>
@@ -156,7 +156,7 @@
                 </table>
             </div>
         </div>
-        {% endfor %}
+        {% endif %} {% endfor %}
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

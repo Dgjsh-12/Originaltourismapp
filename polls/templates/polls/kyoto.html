@@ -1,0 +1,124 @@
+<!DOCTYPE html> {% load static %} {% bootstrap_css %}
+
+<head>
+    <title>観光アプリ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <title>観光アプリ</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-dark bg-primary shadow-sm">
+            <a href="/polls/index.html" class="navbar-brand">
+                    <strong>観光アプリ</strong>
+                </a>
+            <div class="menulist">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navbarSupportedContent">
+                    <a class="dropdown-item" href="/polls/index.html">ホーム</a>
+                    <a class="dropdown-item" href="/album/upload">投稿する</a>
+                    <a class="dropdown-item" href="/album/betails">投稿履歴</a>
+                    <a class="dropdown-item" href="/polls/login/">ログアウト</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contents">
+            <div class="container">
+                <ul class="gnav">
+                    <li>
+                        <a href="">エリア一覧</a>
+                        <ul>
+                            <li>
+                                <a href="/polls/index.html">近畿</a>
+                                <ul>
+                                    <li>
+                                        <a href="/polls/kyoto.html">京都府</a>
+                                        <ul>
+                                            <li><a href="/polls/kyotocty.html">京都市</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <div class="touristname">
+                        <div class="image">
+                            <img src="/media/officialimages/aaa.png" width="10" height="30" class="example1">
+                        </div>
+                        <div class="spotname">
+                            <a href="/album/showall">
+                                <h3 class="basicTitle">清水寺</h3>
+                            </a>
+                        </div>
+                        <div class="sightseeingimage">
+                            <a href="/album/showall"><img src="/media/officialimages/ksji.jpg" width="850" height="430"></a>
+                        </div>
+                    </div>
+                    <div class="touristname">
+                        <div class="image">
+                            <img src="/media/officialimages/aaa.png" width="10" height="30" class="example1">
+                        </div>
+                        <div class="spotname">
+                            <a href="#">
+                                <h3 class="basicTitle">天岩戸神社</h3>
+                            </a>
+                        </div>
+                        <div class="sightseeingimage">
+                            <a href="#"><img src="/media/officialimages/sssd.jpg" width="850" height="430"></a>
+                        </div>
+                    </div>
+                    <div class="touristname">
+                        <div class="image">
+                            <img src="/media/officialimages/aaa.png" width="10" height="30" class="example1">
+                        </div>
+                        <div class="spotname">
+                            <a href="#">
+                                <h3 class="basicTitle">舞鶴赤れんがパーク</h3>
+                            </a>
+                        </div>
+                        <div class="sightseeingimage">
+                            <a href="#"><img src="/media/officialimages/sded.jpg" width="850" height="430"></a>
+                        </div>
+                    </div>
+                    <div class="touristname">
+                        <div class="image">
+                            <img src="/media/officialimages/aaa.png" width="10" height="30" class="example1">
+                        </div>
+                        <div class="spotname">
+                            <a href="#">
+                                <h3 class="basicTitle">光明寺</h3>
+                            </a>
+                        </div>
+                        <div class="sightseeingimage">
+                            <a href="#"><img src="/media/officialimages/dada.jpg" width="850" height="430"></a>
+                        </div>
+                    </div>
+                    <div class="touristname">
+                        <div class="image">
+                            <img src="/media/officialimages/aaa.png" width="10" height="30" class="example1">
+                        </div>
+                        <div class="spotname">
+                            <a href="#">
+                                <h3 class="basicTitle">平等院</h3>
+                            </a>
+                        </div>
+                        <div class="sightseeingimage">
+                            <a href="#"><img src="/media/officialimages/slop.jpg" width="850" height="430"></a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

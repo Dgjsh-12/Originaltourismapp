@@ -31,8 +31,8 @@
 /*ハンバーガーメニュー*/
 
 .postrange {
-    margin-top: 150px;
-    margin-left: 540px;
+    margin-top:100px;
+    margin-left: 645px;
 }
 
 input#id_title {
@@ -53,11 +53,68 @@ input {
 }
 
 form {
-    width: 500px;
+    width: 300px;
 }
 
 input#id_text {
     width: 300px;
     height: 100px;
     margin-left: 42px;
+}
+
+a.navbar-brand {
+    margin-left: 0px;
+}
+
+input {
+    margin-left: 0px;
+}
+
+/* 投稿欄 */
+.postingposition {
+    margin-top: 24px;
+}
+
+.basicTitle1 {
+    margin-top: 64px;
+    margin-left: 20px;
+    width: 230px;
+}
+
+.basicInfoTitle1 {
+    width: 300px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.basicInfoTitle1 th {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    line-height: 18px;
+    padding: 8px;
+    word-break: break-all;
+    font-size: 62.5%;
+}
+
+.basicInfoTitle1 th {
+    background: #eee;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.postscreen {
+    height: 190px;
+}
+/* 投稿欄 */
+
+.erase {
+    margin-left: 104px;
+    margin-top: 140px;
+}
+
+input.decorated {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
 }

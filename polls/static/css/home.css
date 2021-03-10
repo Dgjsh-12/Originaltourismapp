@@ -12,7 +12,6 @@
 
 .container {
     margin-left: 200px;
-    padding-top: 4rem;
 }
 
 .title {
@@ -45,10 +44,6 @@
 
 .dropdown {
     margin-right: 50px;
-}
-
-.navbar-brand {
-    margin-left: 700px;
 }
 
 .bg-light {
@@ -174,7 +169,7 @@
 
 .basicTitle {
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 25.1px;
 }
 
 img.example1 {
@@ -190,3 +185,8 @@ a {
 a {
     top: 10px;
 }
+
+.sightseeingimage {
+    margin-top: 20px;
+}
+

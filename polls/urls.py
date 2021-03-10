@@ -11,4 +11,6 @@ urlpatterns = [
     path('signup/', views.signup, name='signup'),
     path('login/', auth_views.LoginView.as_view(template_name="polls/login.html"), name='login'),
     path('index.html', views.index),
+    path('kyoto.html', views.kyoto),
+    path('kyotocty.html', views.kyotocty),
 ]

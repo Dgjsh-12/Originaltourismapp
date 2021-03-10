@@ -9,6 +9,16 @@ def index(request):
     latest_question_list = Question.objects.all().order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
     return render(request, 'polls/index.html', context)
+    
+def kyoto(request):
+    latest_question_list = Question.objects.all().order_by('-pub_date')[:5]
+    context = {'latest_question_list': latest_question_list}
+    return render(request, 'polls/kyoto.html')
+
+def kyotocty(request):
+    latest_question_list = Question.objects.all().order_by('-pub_date')[:5]
+    context = {'latest_question_list': latest_question_list}
+    return render(request, 'polls/kyotocty.html')
 
 @login_required
 def detail(request, question_id):

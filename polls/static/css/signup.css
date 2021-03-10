@@ -35,3 +35,17 @@ img {
     margin-left: 300px;
     float: left;
 }
+
+.decorated {
+    background-color: #01c944;
+    width: 174px;
+    border-radius: 5px;
+    height: 37px;
+    border: none;
+    color: white;
+}
+
+a.btn.btn-primary {
+    width: 174px;
+    height: 37px;
+}

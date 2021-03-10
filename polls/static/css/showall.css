@@ -12,7 +12,6 @@
 
 .container {
     margin-left: 200px;
-    padding-top: 4rem;
 }
 
 .title {
@@ -180,7 +179,7 @@
 img.example1 {
     margin-top: 2px;
     float: left;
-    margin-left: 210px;
+    margin-left: 215px;
 }
 
 a {
@@ -302,4 +301,20 @@ img.example4 {
 
 .postscreen {
     height: 190px;
+}
+
+a.navbar-brand {
+    margin-left: 0px;
+}
+
+.sightseeingimage {
+    margin-top: 20px;
+    margin-left: 215px;
+}
+
+.ded {
+    margin-bottom: 20px;
+    margin-left: 210px;
+    width: 500px;
+    height: 0px;
 }
