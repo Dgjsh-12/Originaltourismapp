@@ -12,6 +12,12 @@
 * django 3.1.5
 * SQLite3 3.34.0
 
+# サーバーを起動
+* 「python3 manage.py runserver 0.0.0.0:8080」
+
+# ログイン
+* ユーザー名：安宅
+* パスワード：Ataka111
 
 # 画像の説明
 
