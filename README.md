@@ -17,7 +17,7 @@ $ git clone https://github.com/Dgjsh-12/tourismapp.git
 $ cd tourismapp
 $ python3 manage.py runserver 0.0.0.0:8080
 ```
-# 
+# ログインする時のアカウント
 * ユーザー名：abcde
 * パスワード：abcd1234
 
