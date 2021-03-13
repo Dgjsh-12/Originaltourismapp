@@ -11,8 +11,11 @@
 * django 3.1.5
 * SQLite3 3.34.0
 
-# サーバーを起動
-* 「python3 manage.py runserver 0.0.0.0:8080」
+# インストール手順
+`
+$ git clone https://github.com/Dgjsh-12/tourismapp.git
+$ python3 manage.py runserver 0.0.0.0:8080
+`
 
 # ログイン
 * ユーザー名：安宅
