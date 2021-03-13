@@ -18,8 +18,8 @@ $ cd tourismapp
 $ python3 manage.py runserver 0.0.0.0:8080
 ```
 # 
-* ユーザー名：abcd
-* パスワード：Ataka111
+* ユーザー名：abcde
+* パスワード：abcd1234
 
 # 画像の説明
 
