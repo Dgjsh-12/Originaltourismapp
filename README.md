@@ -12,11 +12,10 @@
 * SQLite3 3.34.0
 
 # インストール手順
-`
+```
 $ git clone https://github.com/Dgjsh-12/tourismapp.git
-<br>
 $ python3 manage.py runserver 0.0.0.0:8080
-`
+```
 
 # ログイン
 * ユーザー名：安宅
