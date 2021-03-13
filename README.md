@@ -17,9 +17,6 @@ $ git clone https://github.com/Dgjsh-12/tourismapp.git
 $ cd tourismapp
 $ python3 manage.py runserver 0.0.0.0:8080
 ```
-# アプリ呼び出しURL
-
-
 # 
 * ユーザー名：abcd
 * パスワード：Ataka111
