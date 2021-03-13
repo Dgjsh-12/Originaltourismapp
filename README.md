@@ -14,6 +14,7 @@
 # インストール手順
 `
 $ git clone https://github.com/Dgjsh-12/tourismapp.git
+<br>
 $ python3 manage.py runserver 0.0.0.0:8080
 `
 
