@@ -16,22 +16,24 @@
 $ git clone https://github.com/Dgjsh-12/tourismapp.git
 $ python3 manage.py runserver 0.0.0.0:8080
 ```
+# アプリ呼び出しURL
 
-# ログイン
-* ユーザー名：安宅
+
+# 
+* ユーザー名：abcd
 * パスワード：Ataka111
 
 # 画像の説明
-
-## ログイン画面
-* https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/
-![ログイン画面](https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png)
-* ユーザー名、パスワードでログインします。
 
 ## アカウント登録画面
 * https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/signup/
 ![アカウント画面](https://user-images.githubusercontent.com/67186355/110622625-0f574600-81df-11eb-8336-4937b104a10a.png)
 * ユーザー名、パスワード、再度パスワードでアカウントを登録します。
+
+## ログイン画面
+* https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/login/
+![ログイン画面](https://user-images.githubusercontent.com/67186355/110622349-aff93600-81de-11eb-8a23-5d12c114e340.png)
+* ユーザー名、パスワードでログインします。
 
 ## ホーム画面
 * https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/polls/
