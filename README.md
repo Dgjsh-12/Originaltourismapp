@@ -40,7 +40,7 @@ $ python3 manage.py runserver 0.0.0.0:8080
 
 ## 観光スポットの情報画面
 * https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/showall/
-![観光スポットの情報画面](https://user-images.githubusercontent.com/67186355/111025231-1fad3200-8426-11eb-9420-f78013143c46.png)
+![観光スポットの情報画面](https://github.com/Dgjsh-12/tourismapp/blob/master/imagesummary/Pasted%20Graphic.png)
 * 情報には、観光スポットの歴史の内容と基本情報と口コミが表示します。
 
 ## 投稿画面
