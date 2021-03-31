@@ -59,7 +59,7 @@ $ python3 manage.py runserver 0.0.0.0:8080
 * 投稿したのを編集出来ます。
 
 ## 削除画面
-* https://user-images.githubusercontent.com/67186355/110578924-14999e00-81a9-11eb-9b99-9f7f058706b8.png
+* (https://user-images.githubusercontent.com/67186355/110578924-14999e00-81a9-11eb-9b99-9f7f058706b8.png)
 ![削除画面](https://user-images.githubusercontent.com/67186355/110578924-14999e00-81a9-11eb-9b99-9f7f058706b8.png)
 * 投稿したのを削除出来ます。
 
