@@ -39,7 +39,7 @@ $ python3 manage.py runserver 0.0.0.0:8080
 * 観光名と観光スポットの画像が表示されます。観光名もしくは画像をクリックすると観光スポットの情報と口コミが見られます。情報と口コミは今の所、清水寺をクリックすると表示されます。
 
 ## 観光スポットの情報画面
-* https://5b133c76535a4926883f182367974d03.vfs.cloud9.us-east-2.amazonaws.com/album/showall/
+* https://github.com/Dgjsh-12/tourismapp/blob/master/imagesummary/Pasted%20Graphic.png
 ![観光スポットの情報画面](https://github.com/Dgjsh-12/tourismapp/blob/master/imagesummary/Pasted%20Graphic.png)
 * 情報には、観光スポットの歴史の内容と基本情報と口コミが表示します。
 
